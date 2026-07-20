@@ -16,6 +16,10 @@
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
     <script>
         tailwind.config = {
             theme: {
@@ -168,7 +172,7 @@
 
         <!-- ================= LEFT ================= -->
 
-        <div class="text-left md:text-center lg:text-left">
+        <div data-aos="fade-up" class="text-left md:text-center lg:text-left">
 
             <!-- Badge -->
 
@@ -314,7 +318,7 @@
 
         <!-- ================= RIGHT ================= -->
 
-<div class="relative flex justify-center items-center mt-16 lg:mt-0">
+<div  class="relative flex justify-center items-center mt-16 lg:mt-0">
 
     <!-- Background -->
 
@@ -329,7 +333,7 @@
 
     <!-- Circle Decoration -->
 
-    <div
+    <div data-aos="zoom-in"
         class="block
         absolute w-[250px] h-[250px] md:h-[300px] md:w-[300px]
         lg:w-[500px]
@@ -342,6 +346,7 @@
     <!-- Image -->
 
     <img
+    data-aos="zoom-in" data-aos-delay="300"
         src="images/nobg/penyetnobg.png"
         alt="Ayam Penyet"
         class="
@@ -357,7 +362,7 @@
         <!-- ================= Desktop Badge ================= -->
 
 <!-- Rating -->
-<div
+<div data-aos="zoom-in" data-aos-delay="600"
     class="flex absolute -top-10  md:top-6 -left-8 bg-white rounded-2xl shadow-xl px-5 py-4 items-center gap-3 z-20">
 
     <div class="w-12 h-12 rounded-xl bg-yellow-50 flex items-center justify-center">
@@ -372,7 +377,7 @@
 </div>
 
 <!-- Gratis Ongkir -->
-<div
+<div data-aos="zoom-in" data-aos-delay="900"
     class="flex absolute -bottom-12  md:bottom-8 -right-6 bg-white rounded-2xl shadow-xl px-5 py-4 items-center gap-3 z-20">
 
     <div class="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center">
@@ -394,12 +399,13 @@
 
 <!-- ================= Promo ================= -->
 <section id="promo" class="py-10 lg:py-5">
+
   <div class="max-w-7xl mx-auto px-6">
 
     <div class="grid lg:grid-cols-2 gap-6">
 
       <!-- Promo -->
-      <div
+      <div data-aos="fade-up"
         class="relative rounded-3xl overflow-hidden bg-cover bg-center bg-no-repeat flex items-center justify-between p-8"
         style="background-image: url('images/menu/ayamgeprek.png');">
 
@@ -434,7 +440,7 @@
       </div>
 
       <!-- Paket -->
-      <div
+      <div data-aos="fade-up" data-aos-delay="300"
         class="relative rounded-3xl overflow-hidden bg-cover bg-center bg-no-repeat flex items-center justify-between p-8"
         style="background-image: url('images/menu/ayampenyet.png');">
 
@@ -480,7 +486,7 @@
     <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
         <!-- Heading -->
-        <div class="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between mb-12">
+        <div data-aos="fade-up" class="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between mb-12">
 
             <div>
 
@@ -514,7 +520,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
 
             <!-- Card -->
-            <div
+            <div data-aos="fade-up"
                 class="group overflow-hidden rounded-3xl bg-white border border-gray-100 shadow hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                 <div class="aspect-[4/3] overflow-hidden bg-red-50">
@@ -559,7 +565,7 @@
             </div>
 
             <!-- Card -->
-            <div
+            <div data-aos="fade-up" data-aos-delay="200"
                 class="group overflow-hidden rounded-3xl bg-white border border-gray-100 shadow hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                 <div class="aspect-[4/3] overflow-hidden bg-red-50">
@@ -603,7 +609,7 @@
             </div>
 
             <!-- Card -->
-            <div
+            <div data-aos="fade-up" data-aos-delay="400"
                 class="group overflow-hidden rounded-3xl bg-white border border-gray-100 shadow hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                 <div class="aspect-[4/3] overflow-hidden bg-red-50">
@@ -647,7 +653,7 @@
             </div>
 
             <!-- Card -->
-            <div
+            <div data-aos="fade-up" data-aos-delay="600" 
                 class="group overflow-hidden rounded-3xl bg-white border border-gray-100 shadow hover:shadow-2xl hover:-translate-y-2 transition duration-300">
 
                 <div class="aspect-[4/3] overflow-hidden bg-red-50">
@@ -712,7 +718,7 @@
                 </div>
 
                 <!-- Badge -->
-                <div
+                <div data-aos="zoom-in" data-aos-delay="300"
                     class="absolute left-2 sm:left-4 md:left-0 top-1/2 -translate-y-1/2 bg-white rounded-2xl shadow-xl px-4 py-3 sm:px-5 sm:py-4 flex items-center gap-3 z-20">
 
                     <div
@@ -732,7 +738,7 @@
                 </div>
 
                 <!-- Image -->
-                <img
+                <img data-aos="zoom-in"
                     src="images/nobg/tentang.png"
                     alt="Tentang Kami"
                     class="relative z-10 h-[320px] sm:h-[420px] md:h-[500px] object-contain">
@@ -740,7 +746,7 @@
             </div>
 
             <!-- Content -->
-            <div class="order-1 lg:order-2 text-center lg:text-left">
+            <div data-aos="fade-up" data-aos-delay="200" class="order-1 lg:order-2 text-center lg:text-left">
 
                 <span
                     class="text-red-600 font-semibold uppercase tracking-[4px] text-sm">
@@ -779,7 +785,7 @@
                 <div
                     class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
 
-                    <div
+                    <div data-aos="fade-up"
                         class="bg-gray-50 rounded-2xl p-5 hover:shadow-lg transition">
 
                         <div class="text-3xl mb-3">
@@ -796,7 +802,7 @@
 
                     </div>
 
-                    <div
+                    <div data-aos="fade-up" data-aos-delay="200"
                         class="bg-gray-50 rounded-2xl p-5 hover:shadow-lg transition">
 
                         <div class="text-3xl mb-3">
@@ -813,7 +819,7 @@
 
                     </div>
 
-                    <div
+                    <div data-aos="fade-up" data-aos-delay="400"
                         class="bg-gray-50 rounded-2xl p-5 hover:shadow-lg transition">
 
                         <div class="text-3xl mb-3">
@@ -830,7 +836,7 @@
 
                     </div>
 
-                    <div
+                    <div data-aos="fade-up" data-aos-delay="600"
                         class="bg-gray-50 rounded-2xl p-5 hover:shadow-lg transition">
 
                         <div class="text-3xl mb-3">
@@ -1030,5 +1036,15 @@
 </footer>
 
 <script src="js/script.js"></script>
+
+  <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
 </body>
 </html>

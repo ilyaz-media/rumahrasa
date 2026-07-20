@@ -18,6 +18,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+      <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <!-- Tailwind Config -->
     <script>
         tailwind.config = {
@@ -109,7 +112,7 @@
             <!-- Hero Content -->
             <div class="flex items-center justify-center text-center h-[calc(100%-88px)]">
 
-                <div class="max-w-3xl">
+                <div class="max-w-3xl" data-aos="zoom-in">
 
                     <span class="text-red-500 uppercase tracking-[6px] font-semibold text-sm">
                         Rumah rasa
@@ -370,6 +373,16 @@
 
     <script src="js/data.js"></script>
     <script src="js/menu.js"></script>
+
+     <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
 </body>
 
 </html>
