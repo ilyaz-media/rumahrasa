@@ -1,0 +1,27 @@
+rumah-rasa/
+│
+├── index.html
+│
+├── assets/
+│   │
+│   ├── css/
+│   │     style.css
+│   │
+│   ├── js/
+│   │     app.js
+│   │
+│   ├── img/
+│   │
+│   │    logo.png
+│   │    hero-food.png
+│   │    about.png
+│   │
+│   ├── menu/
+│   │     ayam-bakar.png
+│   │     rendang.png
+│   │     sate.png
+│   │     sop.png
+│   │
+│   └── icons/
+│
+└── README.md
